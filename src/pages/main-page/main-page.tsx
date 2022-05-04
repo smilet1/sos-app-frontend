@@ -1,10 +1,9 @@
-import { MainSection } from "../../components/main-section/main-section";
+import { NavigationBar } from "../../elements/Bars/NavigationBar";
 
 export const MainPage = () => {
     return (
         <div>
-            <MainSection />
-            <MainSection />
+            <NavigationBar />
         </div>
     );
 }
