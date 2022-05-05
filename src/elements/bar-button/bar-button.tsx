@@ -1,5 +1,9 @@
-import { FC, ReactNode } from "react"
+import { FC } from "react"
+import { IBarButtonProps } from "./types"
+import "./bar-button"
 
-export const BarButton:FC <HTMLButtonElement|{children:JSX.Element}> = (props) =>{
-    return <button>{}</button>
+export const BarButton:FC <IBarButtonProps> = (props) => {
+    return (
+        <button className="bar-button" {...props}></button>
+    );
 }

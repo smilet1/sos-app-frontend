@@ -1,11 +1,10 @@
-import { NavigationBar } from "../../elements/Bars/NavigationBar";
-import { SOSMenu } from "../../elements/Menus/SOSMenu";
+import { NavigationBarSection } from "../../components/navigation-bar-section/navigation-bar-section";
+
 
 export const MainPage = () => {
     return (
         <div>
-            <SOSMenu />
-            <NavigationBar />
+            <NavigationBarSection />
         </div>
     );
 }
