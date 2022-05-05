@@ -1,0 +1,54 @@
+.SOSMenu{    
+    position: absolute;
+    width: 375px;
+    height: 705px;
+    left: 1px;
+    top: 107px;
+
+    background: #FFFFFF;
+}
+
+.SOSButtonFrame{
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    left: 91px;
+    top: 266px;
+}
+
+.SOSOuterCircle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 6px solid #FF5B37;
+}
+
+.SOSButton{
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 8px;
+    top: 9px;
+    border-radius: 50%;
+    background: #FF5B37;
+    border:#FF5B37;
+}   
+
+.SOSText{
+    position: absolute;
+    width: 95px;
+    height: 71px;
+
+    font-family: Istok Web;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 5px;
+
+    color: #000000;
+}
