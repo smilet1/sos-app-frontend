@@ -1,10 +1,10 @@
-import { MainSection } from "../../components/main-section/main-section";
+import { NavigationBarSection } from "../../components/navigation-bar-section/navigation-bar-section";
+
 
 export const MainPage = () => {
     return (
         <div>
-            <MainSection />
-            <MainSection />
+            <NavigationBarSection />
         </div>
     );
 }

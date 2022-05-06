@@ -1,10 +1,9 @@
-import { Button } from "../../elements/button"
+import { SOSBarButton } from "../../elements/button"
 
 export const MainSection = () => {
     return (
         <section>
-            <Button />
-            <Button />
+            <SOSBarButton />
         </section>
     );
 }

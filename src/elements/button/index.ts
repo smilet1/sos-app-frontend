@@ -1,1 +1,5 @@
-export { Button } from './button'
+export { SOSBarButton } from './SOSBarButton'
+export { UserButton } from './UserButton'
+export { CallButton } from './CallButton'
+export { SettingsButton } from './SettingsButton'
+export {SOSButton} from './SOSButton'
